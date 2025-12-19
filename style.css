@@ -1,21 +1,55 @@
 body {
     font-family: Georgia, Times, serif;
-    background: white;
+    background: rgb(255, 255, 255);
     margin: 0;
-    color: #4b006e;
+    color: #30043b;
     }
 
     
-    header {
-    background: purple;
-    color: white;
-    padding: 20px;
-    text-align: center;
+    header {  
+        font-size: 30px;
+        position: relative;
+        height: 70vh; 
+        color: white;
+        background: linear-gradient( 45deg,  rgba(70, 2, 77, 0.795),rgba(128, 61, 172, 0.568)   ), url('chickenfries.jpg'); 
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;    
+    }
+
+    main{
+        padding: 0 5%;
+    }
+
+    .info-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-text-light);
+    margin-top: -50px; 
+    padding: 30px 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.918);
+    border-radius: 4px;
+    position: relative; 
+    z-index: 10;
+    min-height: 120px;
     }
     
+    .info-item{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 15px;
+    border-right: 1px solid white ;
+    }
     
     .tagline {
     color: orange;
+    font-family:Cambria, Cochin, Georgia, Times,;
+    font-size: 30px;
     }
     
     
@@ -63,6 +97,13 @@ body {
     max-width: 400px;
     margin: auto;
     }
-   
 
+    .logo{
+        max-width: 90px;
+        display: flex;
+        margin: none;
+        align-items: end;
+        justify-content: left;
+        color: antiquewhite;
+    }
     
