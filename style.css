@@ -1,0 +1,68 @@
+body {
+    font-family: Georgia, Times, serif;
+    background: white;
+    margin: 0;
+    color: #4b006e;
+    }
+
+    
+    header {
+    background: purple;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    
+    .tagline {
+    color: orange;
+    }
+    
+    
+    .menu, .intro {
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+   
+    }
+    
+    
+    .food-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    }
+    
+    
+    .food-card {
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    }
+    
+    
+    .food-card img {
+    width: 100%;
+    border-radius: 10px;
+    }
+    
+    
+    .btn {
+    background: purple;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    }
+    
+    
+    form {
+    max-width: 400px;
+    margin: auto;
+    }
+   
+
+    
